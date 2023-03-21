@@ -22,14 +22,21 @@
 }
 
 
-.auth-form-container .text-input{
+.auth-form-container .text-input,
+.auth-form-container .location
+{
     display: block;
     height: 35px;
     width: 100%;
     box-sizing: border-box;
     padding: 0 15px;
-    
+    border: 1px solid black;
 }
+.auth-form-container .location{
+    background-color: white;
+   
+}
+
 .form-group{
     margin-bottom: 15px;
 }
@@ -49,5 +56,16 @@
     display: block;
     text-align: center;
     font-size: 12px;
+
+}
+
+
+
+/* რეგისტრაცია */
+.sex-container{
+    display: inline-block;
+}
+
+.location{
 
 }
