@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles/style.css">
-    <title>Registration</title>
+    <title>რეგისტრაცია</title>
 </head>
 <body>
     <div class="container">
@@ -20,6 +20,11 @@
                     <label class="text-input-label" for="lastName">გვარი</label>
                     <input type="text" class="text-input" name="lastName" id="lastName" placeholder="ჩაწერეთ  გვარი">
                 </div>
+                <div class="form-group">
+                    <label class="text-input-label" for="userEmail">ელ.ფოსტა</label>
+                    <input type="email" class="text-input" name="userEmail" id="userEmail" placeholder="ჩაწერეთ  ელ.ფოსტა">
+                </div>
+                
                 <div class="form-group">
                     <label class="text-input-label" for="birthDate">დაბადების თარიღი</label>
                     <input type="date" class="text-input" name="birthDate" id="birthDate" placeholder="ჩაწერეთ  გვარი">
@@ -56,8 +61,8 @@
                     <label class="text-input-label" for="passReplay">გაიმეორე პაროლი</label>
                     <input type="password"  class="text-input" name="passReplay" id="passReplay" placeholder="გაიმეორეთ პაროლი">  
                 </div>  
-                <button class="submit-button">რეგისტრაცია</button>
-                <a class="reset-pass-link" href="./auth.html"> ავტორიზაცია</a>
+                <button class="btn btn-primary w-100 mb-15">რეგისტრაცია</button>
+                <a class="btn btn-link" href="./auth.html"> ავტორიზაცია</a>
             </form>
         </div>
     </div>
